@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    align-items:center;
+    background-color:greenyellow;
+}
+
+.feedback-container
+{
+    background-color:white;
+    width:400px;
+    height:200px;
+    box-shadow:0 4px 8 rgba(0,0,0,0.3);
+    border-radius:10px;
+    position:relative;
+}
+
+.emoji-container
+{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:20%;
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    display:flex;
+    overflow:hidden;
+}
+
+.rating-container
+{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:20%;
+}
+
+.far
+{
+    margin:1px;
+}
+
+
+.fa-star
+{
+    color:lightgrey;
+    cursor:pointer;
+}
+
+.fa-star.active
+{
+    color:gold;
+}
